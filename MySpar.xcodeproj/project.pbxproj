@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		921669662B6A686700B68111 /* MySparApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921669652B6A686700B68111 /* MySparApp.swift */; };
-		921669682B6A686700B68111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921669672B6A686700B68111 /* ContentView.swift */; };
+		921669682B6A686700B68111 /* CardProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921669672B6A686700B68111 /* CardProductView.swift */; };
 		9216696A2B6A686B00B68111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921669692B6A686B00B68111 /* Assets.xcassets */; };
 		9216696D2B6A686B00B68111 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9216696C2B6A686B00B68111 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		921669622B6A686700B68111 /* MySpar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		921669652B6A686700B68111 /* MySparApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySparApp.swift; sourceTree = "<group>"; };
-		921669672B6A686700B68111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		921669672B6A686700B68111 /* CardProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProductView.swift; sourceTree = "<group>"; };
 		921669692B6A686B00B68111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9216696C2B6A686B00B68111 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				921669652B6A686700B68111 /* MySparApp.swift */,
-				921669672B6A686700B68111 /* ContentView.swift */,
+				921669672B6A686700B68111 /* CardProductView.swift */,
 				921669692B6A686B00B68111 /* Assets.xcassets */,
 				9216696B2B6A686B00B68111 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				921669682B6A686700B68111 /* ContentView.swift in Sources */,
+				921669682B6A686700B68111 /* CardProductView.swift in Sources */,
 				921669662B6A686700B68111 /* MySparApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +275,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +305,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
